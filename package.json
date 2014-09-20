@@ -1,11 +1,11 @@
 {
   "name" : "shoelace-ui-line-height",
-  "version" : "0.0.1",
-  "description" : "Line-height variables",
+  "version" : "0.1.0",
+  "description" : "Line-height variables and mixin",
   "repository" : "https://github.com/shoelace-ui/line-height.git",
   "keywords" : ["stylus","line","height","variables"],
   "dependencies": {
-    "shoelace-ui-font-size": "git+https://github.com/shoelace-ui/font-size.git"
+    "shoelace-ui-font-size": "^0.1.0"
   },
   "author" : "Michael Andrew Vanasse <mail@mndvns.com>",
   "license" : "MIT"
