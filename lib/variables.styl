@@ -1,0 +1,36 @@
+/**
+ * Module dependencies
+ */
+
+@require 'shoelace-ui-font-size'
+
+/**
+ * Unit-less `line-height` for use in components, e.g., buttons.
+ * Computed `line-height` for use with `margin`, `padding`, etc.
+ */
+
+line-height--base                 ?= 1.428571429 // 20/7
+line-height--base-computed        ?= floor(font-size--base * line-height--base) // ~20px
+line-height--md                    = line-height--base
+line-height--md-computed           = line-height--base-computed
+line-height--computed              = line-height--base-computed
+
+line-height--extra-large          ?= 1.1
+line-height--extra-large-computed ?= floor((font-size--base * line-height--extra-large)) // ~15px
+line-height--xl                    = line-height--large
+line-height--xl-computed           = line-height--large-computed
+
+line-height--large                ?= 1.333333333
+line-height--large-computed       ?= floor((font-size--base * line-height--large)) // ~18px
+line-height--lg                    = line-height--large
+line-height--lg-computed           = line-height--large-computed
+
+line-height--small                ?= 1.5
+line-height--small-computed       ?= floor((font-size--base * line-height--small)) // ~21px
+line-height--sm                    = line-height--small
+line-height--sm-computed           = line-height--small-computed
+
+line-height--extra-small          ?= 2
+line-height--extra-small-computed ?= floor((font-size--base * line-height--extra-small)) // ~24px
+line-height--xs                    = line-height--small
+line-height--xs-computed           = line-height--small-computed

@@ -1,0 +1,15 @@
+/**
+ * Module dependencies
+ */
+
+@require './variables'
+
+/**
+ * Replace `base`, `small`, etc., with `line-height--...`
+ * if available.
+ *
+ * @mixin
+ */
+
+line-height(arg)
+  add-property('line-height', (lookup('line-height--' + arg) or arg))
