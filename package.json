@@ -1,6 +1,6 @@
 {
   "name" : "shoelace-ui-line-height",
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "description" : "Line-height variables and mixin",
   "repository" : "https://github.com/shoelace-ui/line-height.git",
   "keywords" : ["stylus","line","height","variables"],
